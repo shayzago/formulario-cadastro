@@ -1,0 +1,123 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #87D9C3;
+}
+
+.container {
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    box-shadow: 2px 20px 40px rgba(0, 0, 0, 0.212);
+    border: 6px solid #fff;
+    border-radius: 60px;
+    display: flex;
+}
+
+.image {
+    background-color: #90dac6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border-radius: 60px;
+}
+
+.image .foto {
+    height: 60%;
+    position: absolute;
+    margin-right: 60px;
+}
+
+.form {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 150px 250px 100px;
+    z-index: 1;
+}
+
+.form-header {
+    margin-bottom: 45px;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.icons {
+    width: 200px;
+}
+
+.icons .icon {
+    background: #fff;
+    border: 1px solid #cccaca;
+    border-radius: 10px;
+    padding: 15px 15px 10px;
+    margin-right: 20px;
+}
+
+.icon .icon-image {
+    height: 30px;
+    width: 30px;
+}
+
+.alternativa {
+    font-size: 30px;
+    font-weight: 500;
+    color: #9b9b9b;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    width: 100%;
+    height: 330px;
+}
+
+.input-group .input-box {
+    margin-top: 70px;
+    font-weight: 500;
+    border-bottom: 1px solid #9b9b9b;
+}
+
+.input-box input {
+    border: none;
+    width: 100%;
+}
+
+.input-box input:focus {
+    outline: 0;
+}
+
+.create-btn {
+    width: 100%;
+    height: 70px;
+    border: none;
+    background-color: #2fbf9b;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.create-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.login {
+    font-weight: 500;
+    color: #9b9b9b;
+}
+
+.login span a {
+    text-decoration: none;
+    color: #2fbf9b;
+}
